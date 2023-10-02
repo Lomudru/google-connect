@@ -12,8 +12,8 @@ $httpClient = new GuzzleHttp\Client([
     ],
 ]);
 $goo->setHttpClient($httpClient);
-$goo->setClientId("723853566608-6fiqm8sau8pib1g7s6tpufiqv231abs1.apps.googleusercontent.com");
-$goo->setClientSecret("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");
+$goo->setClientId("Client Id Here");
+$goo->setClientSecret("Secret Client Here");
 $goo->addScope("email");
 $goo->addScope("profile");
 $goo->setRedirectUri("http://localhost/test/login.php");
